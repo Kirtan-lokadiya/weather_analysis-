@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(/weather_background_img.jpg); 
+    background-image: url(weather_background_img.jpg); 
     /* Replace with your image path */
     background-size: cover;
     background-repeat: no-repeat;
