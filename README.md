@@ -1,2 +1,3 @@
 # weather_api
 check all details relevant to weather 
+Enter city name and then after click on search button You will get all details relating to weather...
