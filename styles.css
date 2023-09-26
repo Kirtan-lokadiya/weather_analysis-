@@ -1,8 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: coral;
-    /* background-image: url("./weather_background_img.jpg"); */
-    /* Replace with your image path */
+    background-image: url("./weather_background_img.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* This ensures the background stays fixed */
