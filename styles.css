@@ -1,7 +1,7 @@
 /* Add this CSS to your styles.css file */
 body {
     font-family: Arial, sans-serif;
-    background-image: url(/weather_background_img.jpg);
+    background-image: url(weather_background_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
