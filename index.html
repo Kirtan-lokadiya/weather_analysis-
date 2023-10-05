@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Weather App</h1>
+    </header>  
+    <center>
+    <main >
         <div class="search-container">
-            <input type="text" id="locationInput" placeholder="Enter location (e.g., city name)">
+            <input type="text" id="locationInput" placeholder="Enter Location">
             <button id="searchButton">Search</button>
         </div>
-        <div class="weather-info">
-            <h2>Weather in <span id="cityName"></span></h2>
+        <div class="weather-details">
+            <h2 id="cityName"></h2>
             <p id="weatherDescription"></p>
             <p id="temperature"></p>
             <p id="minMaxTemp"></p>
             <p id="humidity"></p>
             <p id="windSpeed"></p>
         </div>
-    </div>
+        <div id="map" style=" height: 550px; width:50%"></div>
+
+    </main>
+</center>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
